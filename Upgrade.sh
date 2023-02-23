@@ -20,6 +20,8 @@ apt-get install smtp-user-enum -y
 pip install shodan
 apt-get install maltegoce -y
 apt-get install libimage-exiftool-perl -y
+apt-get install docker.io -y
+docker pull rustscan/rustscan:2.0.1
 clear
 echo -e "\033[32m[+]\033[0m Linux Upgraded."
 echo -e "\033[32m[+]\033[0m Installed Package For Arp Spoofing."
@@ -35,4 +37,5 @@ echo -e "\033[32m[+]\033[0m Installed SMTP Service."
 echo -e "\033[32m[+]\033[0m Installed 'Shodan'."
 echo -e "\033[32m[+]\033[0m Installed 'Maltego'."
 echo -e "\033[32m[+]\033[0m Installed 'Exiftool'."
+echo -e "\033[32m[+]\033[0m Installed 'Rustscan'."
 # Program Finished.
